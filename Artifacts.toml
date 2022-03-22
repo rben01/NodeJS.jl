@@ -1,79 +1,79 @@
 [[nodejs_app]]
 arch = "x86_64"
-git-tree-sha1 = "6460883d771aad2be8082172187a886c663a8a80"
+git-tree-sha1 = "0c9bc18954b5d778f9b94f45b91434c90187fb8f"
 libc = "glibc"
 os = "linux"
 
     [[nodejs_app.download]]
-    sha256 = "42b0f91e1e9d87cb06fd5a0404dd8459e8072908d9d3bc0d5d62964a3f27e678"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-x86_64-linux-gnu.tar.gz"
+    sha256 = "786eb8e68c7bcf55c14cec90c94f8a8c563c2500d72f1adf4beb33fdaef90370"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-x86_64-linux-gnu.tar.gz"
 [[nodejs_app]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "1c4bb0610560c0fe96cf1abc7246ec0a98a435f4"
+git-tree-sha1 = "2d3ab8ac7a33b99a72ec4fabbe76507af9e3695d"
 libc = "glibc"
 os = "linux"
 
     [[nodejs_app.download]]
-    sha256 = "4b5e4b519179baadac6ee0b151f761da67eb41215611fd833a7a78e519f04356"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-armv7l-linux-gnueabihf.tar.gz"
+    sha256 = "ddee18ea8ebe8d7a68f8ade714a67eae6d6380e740b9ecead34d8207170c9873"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-armv7l-linux-gnueabihf.tar.gz"
 [[nodejs_app]]
 arch = "powerpc64le"
-git-tree-sha1 = "930fd069bc798da127297b51493548b5a9852e19"
+git-tree-sha1 = "75c01879c5bdb749ad2f3a43371a7f2142df86f4"
 libc = "glibc"
 os = "linux"
 
     [[nodejs_app.download]]
-    sha256 = "3c416e3f23f423b53b086868ac7db0246d10fc27be8c2c34ff67780d61bd0bd5"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-powerpc64le-linux-gnu.tar.gz"
+    sha256 = "f07f894eb496eff995c89a2398c353399dde9b8ac83e1391e60e8e4621cd28da"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-powerpc64le-linux-gnu.tar.gz"
 [[nodejs_app]]
 arch = "x86_64"
-git-tree-sha1 = "6460883d771aad2be8082172187a886c663a8a80"
+git-tree-sha1 = "0c9bc18954b5d778f9b94f45b91434c90187fb8f"
 libc = "musl"
 os = "linux"
 
     [[nodejs_app.download]]
-    sha256 = "f2e810ecc92a1f9c445ad7e614922093f9d63c98f792b1d3fc4bebb2e69523cc"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-x86_64-linux-musl.tar.gz"
+    sha256 = "590a4ec58097166e789bc7ebae7d6689ce5bddb0892cb8c01f350bc1ed52f1bd"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-x86_64-linux-musl.tar.gz"
 [[nodejs_app]]
 arch = "armv7l"
 call_abi = "eabihf"
-git-tree-sha1 = "1c4bb0610560c0fe96cf1abc7246ec0a98a435f4"
+git-tree-sha1 = "2d3ab8ac7a33b99a72ec4fabbe76507af9e3695d"
 libc = "musl"
 os = "linux"
 
     [[nodejs_app.download]]
-    sha256 = "0eb72d55aa8eda0c03359fd558431595688ecad6dbdfa3db7c318bdca8fa68d7"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-armv7l-linux-musleabihf.tar.gz"
+    sha256 = "7637550b14311ee07a334391f12a3547b12564e6eec05ad51573697f64b16b9e"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-armv7l-linux-musleabihf.tar.gz"
 [[nodejs_app]]
 arch = "x86_64"
-git-tree-sha1 = "ca4c5ab9451bccd1ba4f8d797bc675f390e1bddb"
+git-tree-sha1 = "0ed57c4ef6991acbd8c67e85299baa776020bab3"
 os = "macos"
 
     [[nodejs_app.download]]
-    sha256 = "95b588012c88076edede822eb913f796881a3c8d43cec52f6694924d6368662b"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-x86_64-apple-darwin14.tar.gz"
+    sha256 = "9190ac6cf514b72153f8b4d977fcecd0d929a04d3e7f0aab1907b7737b3d0f7f"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-x86_64-apple-darwin14.tar.gz"
 [[nodejs_app]]
 arch = "aarch64"
-git-tree-sha1 = "ca4c5ab9451bccd1ba4f8d797bc675f390e1bddb"
+git-tree-sha1 = "0ed57c4ef6991acbd8c67e85299baa776020bab3"
 os = "macos"
 
     [[nodejs_app.download]]
-    sha256 = "b69648d02537c446463db83eca2d319d1cb4a32b1376692f2eb3387b5aefcfba"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-aarch64-apple-darwin14.tar.gz"
+    sha256 = "e5003005ae2466e83bbf34187070edabac5b213f660725b08c139701f492f90b"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-aarch64-apple-darwin14.tar.gz"
 [[nodejs_app]]
 arch = "i686"
-git-tree-sha1 = "918bec4ac0349ed58873367b9292ff716a4a2a5d"
+git-tree-sha1 = "a7141f2731bb7169eed836a3e34d621cef4e74ac"
 os = "windows"
 
     [[nodejs_app.download]]
-    sha256 = "e49df60a1ad89844fdea071a9cfff46bbe254382e7e2a0d2c5a40a871c11967a"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-i686-w64-mingw32.tar.gz"
+    sha256 = "834f3cf2fa68da664ef46dd2c2ae0013e026d33f3e54de50d6119a1e6516f3e1"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-i686-w64-mingw32.tar.gz"
 [[nodejs_app]]
 arch = "x86_64"
-git-tree-sha1 = "0bd56198ac47b98572257a7725d9425f5a1ba1a9"
+git-tree-sha1 = "3d68eca86566a08e1da02de1ac4561493ae50206"
 os = "windows"
 
     [[nodejs_app.download]]
-    sha256 = "7ef7965796bc417b8aa19f6109b327012fb789ed672c16a52b7c2c2487722e3a"
-    url = "https://github.com/davidanthoff/NodeJSBuilder/releases/download/v12.22.1%2B2/NodeJS-12.22.1+2-x86_64-w64-mingw32.tar.gz"
+    sha256 = "4880a991fa6dcae8515151c0afe8c22ec2e3f58124f64336c72b8fe687ddf627"
+    url = "https://github.com/rben01/NodeJSBuilder/releases/download/v17.7.2%2B1/NodeJS-17.7.2+1-x86_64-w64-mingw32.tar.gz"
